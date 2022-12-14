@@ -17,7 +17,7 @@ class Person {
       return 'normal';
     }
     if (result >= 25 && result < 26) {
-      return 'overwight';
+      return 'overweight';
     }
     if (result >= 27 && result < 29) {
       return 'overweight level 1';
