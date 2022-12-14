@@ -15,9 +15,6 @@ describe('Group 1', () => {
   });
 
   test('case 1', () => {
-    beforeAll(() => {
-      console.log('beforeAll');
-    });
     console.log('case 1');
     expect(1 + 1).toBe(2);
   });
