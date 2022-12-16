@@ -15,6 +15,7 @@ describe('Test for hello endpoint', () => {
 
   describe('test for [GET] /', () => {
     test('should return "Hello World!"', () =>
+      // eslint-disable-next-line implicit-arrow-linebreak
       request(app)
         .get('/')
         .expect(200)
